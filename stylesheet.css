@@ -1,0 +1,41 @@
+html{
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+canvas {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.title, .testcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.title h1{
+  margin-bottom: 5px;
+}
+
+.title span{
+  margin-bottom: 10px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+}
+
+.utilites{
+  width: 100%;
+  display: flex;
+}

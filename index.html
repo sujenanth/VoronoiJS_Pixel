@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Voronoi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="title">
+      <h1>Voronoi</h1>
+      <span>von Sujenan Thirumamany & Ismail Solombrino</span>
+    </div>
+    <div class="container">
+      <div class="testcontainer">
+        <canvas id="voronoi_canvas" width="500" height="500"></canvas>
+        <div style="float:right;">
+          <span> clicked COLOR :</span> <span id="coll"></span>
+        </div>
+        <div class="utilites">
+          <button id="submit" onclick="printCircles()" type="submit" name="button">Start</button>
+          <button type="submit" name="check" onclick="printPixel()">print</button>
+          <div class="range">
+            <input id="range" type="range" name="range" value="2" min="2" max="10">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="status">
+    </div>
+  </body>
+  <footer>
+    <p>Hallo</p>
+  </footer>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="circle.js"></script>
+  <script src="controller.js"></script>
+</html>
