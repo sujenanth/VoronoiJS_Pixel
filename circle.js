@@ -9,34 +9,30 @@ class Circle{
     let x0 = this.x;
     let y0 = this.y;
 
-  	let d = 5 - 4*r;
+  	let d = 1 - r;
 
   	let x = 0;
   	let y = r;
 
-  	let deltaA = (-2*r + 5)*4;
-  	let deltaB = 3*4;
+  	let deltaA = 1;
+  	let deltaB = 2 - 2 * r;
 
   	while (x <= y) {
-  		ellipse_points(ctx, x0, y0, x, y, this.color);
-  		ellipse_points(ctx, x0, y0, y, x, this.color);
-
-
-  		if (d > 0) {
-  			d += deltaA;
-  			y -= 1;
-  			x += 1
-  			deltaA += 4*4;
-  			deltaB += 2*2;
+  		if (d < 0) {
+  			d += d + deltaA;
+  			x += 1;
+  			deltaA = deltaA + 2;
+  			deltaB = deltaB + 2;
   		}
   		else {
   			d += deltaB;
-
-  			x += 1;
-
-  			deltaA += 2*4;
-  			deltaB  += 2*4;
+			x += 1;
+			y = y -1;
+			deltaA = deltaA	+ 2;
+			deltaB = deltaB + 4
   		}
+		ellipse_points(ctx, x0, y0, x, y, this.color);
+		ellipse_points(ctx, x0, y0, y, x, this.color);
   	}
   }
 
