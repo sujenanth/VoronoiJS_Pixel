@@ -45,7 +45,7 @@ class Circle{
   }
 
   animate = function(){
-    this.r  = this.r + 0.5;
+    this.r  = this.r + 1;
     this.draw_Circle(this.r)
   }
 }
