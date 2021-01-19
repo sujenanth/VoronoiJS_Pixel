@@ -21,7 +21,7 @@ class Circle{
 		  ellipse_points(ctx, x0, y0, x, y, this.color);
 		  ellipse_points(ctx, x0, y0, y, x, this.color);
 
-		  if (d < 0) {
+		  if (d > 0) {
 			  d += deltaA;
 			  y -= 1;
 			  x += 1

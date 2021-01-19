@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="367661b4-5680-4cdf-9599-ab28eff5af29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/voronoifrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Description.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+    <list default="true" id="367661b4-5680-4cdf-9599-ab28eff5af29" name="Default Changelist" comment="frontend implented">
+      <change afterPath="$PROJECT_DIR$/public/circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CanvasContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../circle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,6 +44,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/scripts" />
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
@@ -75,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610904458997</updated>
-      <workItem from="1610904463189" duration="4861000" />
+      <workItem from="1610904463189" duration="16896000" />
     </task>
+    <task id="LOCAL-00001" summary="frontend implented">
+      <created>1610926396634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610926396634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frontend implented" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend implented" />
   </component>
 </project>

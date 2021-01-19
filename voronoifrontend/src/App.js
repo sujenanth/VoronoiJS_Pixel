@@ -3,15 +3,21 @@ import './stylesheet.css';
 import {Fab} from '@material-ui/core';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import Description from "./components/Description";
+import CanvasContainer from "./components/CanvasContainer";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import Script from 'react-load-script';
+import ScriptTag from 'react-script-tag';
+
 
 function App() {
   return (
     <div className="App">
         <div className={"block"}>
-            <div className={"bigTitle_block"}>
+            <ScrollAnimation animateOnce animateIn={"fadeIn"} animateOut={"fadeOut"} className={"bigTitle_block"}>
                 <h1>Voronoi</h1>
                 <span>Ein Gruppenprojekt von zwei IMS-Schülern</span>
-            </div>
+            </ScrollAnimation>
             <div className={"inline_block"}>
                 <h1>Voronoi</h1>
                 <p>
@@ -24,16 +30,14 @@ function App() {
         </div>
         <div className={"container_description"}>
             <Description/>
+            <CanvasContainer/>
         </div>
         <div className={"fab"}>
-            <a href="#canvas">
-                <Fab color="secondary" aria-label="edit">
+            <a href="#voronoi_canvas">
+                <Fab size={"large"} color="secondary" aria-label="edit">
                     <PlayArrowIcon/>
                 </Fab>
             </a>
-        </div>
-        <div id={"#canvas"}>
-            sss
         </div>
         <footer className={"footer"}>
             &copy; Sujenan Thirumamany & Ismail Solombrino

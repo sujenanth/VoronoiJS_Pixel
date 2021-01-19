@@ -1,9 +1,11 @@
+
+
 export default function Description(props){
     return(
         <>
             <div className={"description"}>
                 <div className={"paragraph_description"}>
-                    <h1>Was ist Voronoi</h1><p>
+                <p>
                     Im Rahmen des Unterrichts der angewandten Mathematik hatten wir die Möglichkeit das mathematische Vornoi-Diagramm, auch Thiessen-Polygone oder Dirichlet-Zerlegung genannt, in einer Applikation umzuwandeln.
                 </p>
                     <p>

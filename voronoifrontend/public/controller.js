@@ -1,20 +1,16 @@
 const canvas = document.getElementById("voronoi_canvas");
+const button = document.getElementById('startButton')
 const ctx = canvas.getContext("2d");
 const width = canvas.width;
 const height = canvas.height;
-const value = document.getElementById('range').value
+const value = document.getElementById('slidervalue').innerText
 const pixelsize = 1;
 const ps = pixelsize;
 const circles = [];
 const example = document.getElementById('voronoi_canvas');
 const context = example.getContext('2d');
-context.fillStyle = '#302d2d';
-context.fillRect(0, 0, 50, 50);
-context.fillStyle = randomColor();
-context.fillRect(55, 0, 50, 50);
-context.fillStyle = randomColor();
-context.fillRect(110, 0, 50, 50);
 const pixelArray = [];
+
 
 
 function setup(){
@@ -82,10 +78,11 @@ function getData(){
 }
 
 
-function printCircles(){
-  setup();
-  Update();
-}
+
+button.addEventListener('click', function () {
+    setup();
+    Update();
+})
 
 
 function findPos(obj) {
@@ -144,8 +141,3 @@ function randomInt(max) {
 function randomColor() {
 	return `rgb(${randomInt(256)}, ${randomInt(256)}, ${randomInt(256)})`
 }
-
-
-let temp = new Circle(100,100,50)
-
-temp.start();
