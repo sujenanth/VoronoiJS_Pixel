@@ -9,9 +9,6 @@ html, body{
 nav h1{
     font-size: 30px;
 }
-img{
-    display: none;
-}
 
 .block {
     width: 100%;
@@ -87,7 +84,7 @@ footer {
 }
 .paragraph_description{
     padding: 20px;
-    width: 60%;
+    width: 50%;
     font-size: 25px;
 }
 
@@ -125,4 +122,24 @@ canvas {
 }
 .value_circle{
     width: 40%;
+}
+.voronoi_image_section{
+    float: right;
+    width: 40%;
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voronoi_image{
+    border-radius: 30px;
+    width: 100%;
+}
+
+.voronoi_image_section span{
+    padding-top: 10px;
+    opacity: 0.5;
 }

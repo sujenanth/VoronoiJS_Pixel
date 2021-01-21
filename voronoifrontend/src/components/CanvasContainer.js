@@ -36,7 +36,7 @@ export default function CanvasContainer(props){
                             onChange={handleChange} />
                     </div>
                     <div className={"canvas_buttons"}>
-                        <Button id={"startButton"}>Start</Button>
+                        <Button variant={"outlined"} style={{ color : 'white', border: 'red'}} id={"startButton"}>Start</Button>
                     </div>
                 </div>
                 <div className={"canvas_container_canvas"}>

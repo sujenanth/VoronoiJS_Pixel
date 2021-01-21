@@ -16,7 +16,7 @@ const pixelArray = [];
 function setup(){
   this.circles = [];
   ctx.clearRect(0,0,canvas.width, canvas.height)
-  for(let x = 0; 5 > x; x++){
+  for(let x = 0; value > x; x++){
     let r = 1;
     let x  = Math.random() * (canvas.width - r * 2) + r;
     let y = Math.random()  * (canvas.height - r * 2) + r;
